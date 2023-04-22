@@ -1,0 +1,277 @@
+:root {
+    font-size: 16px;
+
+}
+
+body {
+    margin: 0;
+    padding: 100;
+    display: block;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    backdrop-filter: blur(2px);
+    background-color: white
+}
+.navbar {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+    font-family: Roboto, Arial, sans-serif;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.image{
+    margin: 2px 0 0;
+    line-height: 68px;
+    display: flex;
+    justify-content: right;
+}
+
+#about_us {
+    color: #00b39b;
+}
+
+#career {
+    transition: all 0.1s ease-in;
+}
+
+#career:hover {
+    color: #00b39b;
+}
+
+#departments:hover {
+    color: #00b39b;
+}
+
+.nav-menu {
+    display: flex;
+    justify-items: space-between;
+}
+
+.nav-menu a {
+    margin-left: 0.5rem;
+}
+.head_section{
+    display: table;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.p1,.p2 {
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 50%;
+    color: gray;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.75;
+    font-weight: 400;
+    
+}
+::selection{
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+.body_section{
+    margin-top: 3.75rem;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    margin-right: -10px;
+    margin-left: -10px;
+
+}
+main {
+    margin-top: 56px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.title1 {
+    font-size: 1rem;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+}
+.title1 h1{
+    font-size: 2.125rem;
+}
+.firstp {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#boxe1 {
+    width: 33%;
+    height: 300px;
+    font-family: Roboto,Arial,sans-serif;
+    background-color: #00b39b;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    
+}
+#boxe1 h1{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#boxe1 h2{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: -.3px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: Work Sans,Arial,sans-serif;
+}
+
+#button1{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#button1::after{background:image(https://www.docplanner.com/icons/icon-caret-white.svg);
+   }
+#boxe2 {
+    width: 33%;
+    background-color: #3d83df;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+#boxe2 h1{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#boxe2 h2{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: -.3px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#boxe3 {
+    width: 33%;
+    background-color: #1b2734;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+#boxe3 h1{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1;
+    font-family: Work Sans,Arial,sans-serif;
+}
+#boxe3 h2{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    letter-spacing: -.3px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-family: Work Sans,Arial,sans-serif;
+}
+.main {
+    margin-top: 56px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
+.second_floor h1{
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px
+}
+.third_floor{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+}
+.third_floor >.fir{
+    zoom: 1;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.head_third{
+    width: 100%;
+    float: none;
+    text-align: center;
+    color: #00b39b;
+}
+.head_third >h1{
+    margin: 0;
+    color: #00b39b;
+    font-family: Work sans,Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: -.3px;
+}
